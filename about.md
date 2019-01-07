@@ -8,8 +8,8 @@ I am a citizen of Singapore. You can find out more info about me at [linkedin.co
 
 Meanwhile, I am still new to coding, trying to piece the pieces.
 
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+{% include icon-github.html username="tbmtc" %} /
+[tbmtc.github.io](https://github.com/tbmtc/tbmtc.github.io)
 
 You can find the source code for Jekyll at
 {% include icon-github.html username="jekyll" %} /
