@@ -1,10 +1,18 @@
+
+# In the example code below, an HTML header element with Bootstrap's predefined container class is used:
 <header class="container">
 
+# Inside the header, a row is created by using a div with Bootstrap's row class:
   <div class="row">
+
+# Finally, the row is cut into two parts:
+# The first part consists of the h1 with Bootstrap's class col-sm-4. 
     <h1 class="col-sm-4">
       <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
     </h1>
-    
+
+# The second part consists of the nav element with class col-sm-8. It will take up the remaining eight grid columns. 
+# text-right indicates that text will be arranged on the right side of the nav.
     <nav class="col-sm-8 text-right">
       <a href="#" class="menu-icon">
         <svg viewBox="0 0 18 15">
@@ -13,7 +21,7 @@
           <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
         </svg>
       </a>
-
+    
       <div class="trigger">
         {% for my_page in site.pages %}
           {% if my_page.title %}
