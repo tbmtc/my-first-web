@@ -1,18 +1,20 @@
 
 # In the example code below, an HTML header element with Bootstrap's predefined container class is used:
-<header class="container">
-
 # Inside the header, a row is created by using a div with Bootstrap's row class:
-  <div class="row">
-
 # Finally, the row is cut into two parts:
 # The first part consists of the h1 with Bootstrap's class col-sm-4. 
+# The second part consists of the nav element with class col-sm-8. It will take up the remaining eight grid columns. 
+# text-right indicates that text will be arranged on the right side of the nav.
+
+
+<header class="container">
+
+  <div class="row">
+
     <h1 class="col-sm-4">
       <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
     </h1>
 
-# The second part consists of the nav element with class col-sm-8. It will take up the remaining eight grid columns. 
-# text-right indicates that text will be arranged on the right side of the nav.
     <nav class="col-sm-8 text-right">
       <a href="#" class="menu-icon">
         <svg viewBox="0 0 18 15">
