@@ -20,3 +20,5 @@ linkedin_username: tbmtc
 
 # Build settings
 markdown: kramdown
+
+theme: jekyll-theme-cayman
